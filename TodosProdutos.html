@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulso Pet</title>
+    <link rel="stylesheet" href="TodosProdutos.css">
+</head>
+
+<body>
+ <nav class="nav">
+
+        <img src="logocontraste.png" class="logo">
+
+        <div class="TextoNav">
+
+            <a href="homeuser.html">
+                <h3>Início</h3>
+            </a>
+
+            <a href="TodosProdutos.html">
+                <h3>Produtos</h3>
+            </a>
+
+            <a href="sobre.html">
+                <h3>Sobre</h3>
+            </a>
+
+            <a href="minhaconta.html">
+                <img class="perfil" src="user.png">
+            </a>
+
+        </div>
+
+    </nav>
+
+<div class="resultado-pesquisa"
+id="resultadoPesquisa">
+
+</div>
+
+    <main class="container">
+
+        <aside class="filtro">
+            <h2>Filtrar produtos</h2>
+
+            <button id="limparFiltros">Limpar filtros</button>
+
+            <div class="grupoFiltro">
+                <h3>Faixa de preços</h3>
+
+                <label><input type="radio" name="preco" value="0-25"> R$ 00,00 - 25,00</label>
+                <label><input type="radio" name="preco" value="25-50"> R$ 25,50 - 50,00</label>
+                <label><input type="radio" name="preco" value="50-100"> R$ 50,50 - 100,00</label>
+                <label><input type="radio" name="preco" value="100-200"> R$ 100,00 - 200,00</label>
+                <label><input type="radio" name="preco" value="200+"> + R$ 200,00</label>
+            </div>
+
+            <div class="grupoFiltro">
+                <h3>Marca</h3>
+
+                <label><input type="checkbox" class="marca" value="Magnus"> Magnus</label>
+                <label><input type="checkbox" class="marca" value="SpecialDog"> SpecialDog</label>
+                <label><input type="checkbox" class="marca" value="Pedigree"> Pedigree</label>
+                <label><input type="checkbox" class="marca" value="Whiskas"> Whiskas</label>
+                <label><input type="checkbox" class="marca" value="Friskies"> Friskies</label>
+                <label><input type="checkbox" class="marca" value="Select"> Select</label>
+                <label><input type="checkbox" class="marca" value="Chalesco"> Chalesco</label>
+                <label><input type="checkbox" class="marca" value="Spike"> Spike</label>
+                <label><input type="checkbox" class="marca" value="Fuzz"> Fuzz</label>
+                <label><input type="checkbox" class="marca" value="Nutrilus"> Nutrilus</label>
+            </div>
+
+            <div class="grupoFiltro">
+                <h3>Pet</h3>
+
+                <label><input type="checkbox" class="pet" value="cachorro"> Cachorros</label>
+                <label><input type="checkbox" class="pet" value="gato"> Gatos</label>
+            </div>
+        </aside>
+
+        <section class="produtos">
+
+
+            <a class="href" href="ProdutoPreto.html">
+            <div class="card" data-marca="PetTimer" data-pet="cachorro" data-preco="209.99">
+    <img src="produto preto.png">
+
+    <h4>PetTimer preto 1,5L</h4>
+
+    <p>R$ 209,99</p>
+
+    <button class="btn-comprar">
+        Comprar agora
+    </button>
+</div>
+</a>
+
+            <a class="href" href="ProdutoBranco.html">
+            <div class="card" data-marca="PetTimer" data-pet="cachorro" data-preco="209.99">
+                <img src="produto branco.png">
+                <h4>PetTimer branco 1,5L</h4>
+                <p>R$ 209,99</p>
+
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+
+            </div>
+            </a>
+
+            <a class="href" href="ProdutoBege.html">
+            <div class="card" data-marca="PetTimer" data-pet="cachorro" data-preco="209.99">
+                <img src="produto bege.png">
+                <h4>PetTimer bege 1,5L</h4>
+                <p>R$ 209,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+            </a>
+
+            <a class="href" href="PedigreeCachorro.html">
+            <div class="card" data-marca="Pedigree" data-pet="cachorro" data-preco="170.99">
+                <img src="pedigree cachorro.png">
+                <h4>Ração Pedigree 10.1kg</h4>
+                <p>R$ 170,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="SpecialDogRação.html">
+            <div class="card" data-marca="SpecialDog" data-pet="cachorro" data-preco="99.99">
+                <img src="specialdog ração.png">
+                <h4>Ração Special Dog 10.1kg</h4>
+                <p>R$ 99,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="MagnusCachorro.html">
+            <div class="card" data-marca="Magnus" data-pet="cachorro" data-preco="119.99">
+                <img src="magnus cachorro.png">
+                <h4>Ração Magnus 15kg</h4>
+                <p>R$ 119,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="WhiskasGato.html">
+            <div class="card" data-marca="Whiskas" data-pet="gato" data-preco="179.99">
+                <img src="whiskas gato.png">
+                <h4>Ração Whiskas 10.1kg</h4>
+                <p>R$ 179,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="Friskies.html">
+            <div class="card" data-marca="Friskies" data-pet="gato" data-preco="179.99">
+                <img src="friskies gatos.png">
+                <h4>Ração Friskies 10.1kg</h4>
+                <p>R$ 179,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="MagnusGato.html">
+            <div class="card" data-marca="Magnus" data-pet="gato" data-preco="139.99">
+                <img src="magnus gato.png">
+                <h4>Ração Magnus 15kg</h4>
+                <p>R$ 139,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="Haltere.html">
+            <div class="card" data-marca="Spike" data-pet="cachorro" data-preco="15">
+                <img src="haltere cachorro.png">
+                <h4>Brinquedo haltere mordedor</h4>
+                <p>R$ 15,00</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="BolinhaCachorro.html">
+            <div class="card" data-marca="Spike" data-pet="cachorro" data-preco="9.99">
+                <img src="bolinha cachorro.png">
+                <h4>Brinquedo de bolinha</h4>
+                <p>R$ 9,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="MordedorCorda.html">
+            <div class="card" data-marca="Spike" data-pet="cachorro" data-preco="34.90">
+                <img src="corda cachorro.png">
+                <h4>Brinquedo mordedor corda</h4>
+                <p>R$ 34,90</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+            </a>
+
+            <a class="href" href="FuzzJam.html">
+            <div class="card" data-marca="Fuzz" data-pet="gato" data-preco="20.99">
+                <img src="fuzz jam.png">
+                <h4>Brinquedo Fuzz Jam</h4>
+                <p>R$ 20,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="FuzzVarinha.html">
+            <div class="card" data-marca="Fuzz" data-pet="gato" data-preco="24.99">
+                <img src="fuzz varinha.png">
+                <h4>Brinquedo Fuzz Varinha</h4>
+                <p>R$ 24,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="FuzzCrocodilo.html">
+            <div class="card" data-marca="Fuzz" data-pet="gato" data-preco="15.99">
+                <img src="fuzz jacare.png">
+                <h4>Brinquedo Fuzz Crocodilo</h4>
+                <p>R$ 15,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="CaixaSpike.html">
+            <div class="card" data-marca="Spike" data-pet="cachorro" data-preco="69.99">
+                <img src="caixa spike.png">
+                <h4>Caixa de transporte spike Off-white</h4>
+                <p>R$ 69,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="CarrinhoChalesco.html">
+            <div class="card" data-marca="Chalesco" data-pet="cachorro" data-preco="699.99">
+                <img src="carrinho chalesco.png">
+                <h4>Carrinho Chalesco Comfort Ride</h4>
+                <p>R$ 699,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="mochilaChalesco.html">
+            <div class="card" data-marca="Chalesco" data-pet="cachorro" data-preco="509.99">
+                <img src="mochila chalesco.png">
+                <h4>Mochila Chalesco preta com rodas</h4>
+                <p>R$ 509,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="produtoteste.html">
+            <div class="card" data-marca="Pedigree" data-pet="cachorro" data-preco="20.90">
+                <img src="biscrok pedigree.png">
+                <h4>Biscoito Pedigree Biscrok Junior</h4>
+                <p>R$ 20,90</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+
+<a class="href" href="PetiscoSelections.html">
+            <div class="card" data-marca="Select" data-pet="cachorro" data-preco="8.99">
+                <img src="petisco selection.png">
+                <h4>Enroladinho Sabor Carne</h4>
+                <p>R$ 8,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+            </a>
+
+            <a class="href" href="PetiscoCreamTreats.html">
+            <div class="card" data-marca="Nutrilus" data-pet="gato" data-preco="24.99">
+                <img src="petisco creamy treats.png">
+                <h4>Petiscos Creamy Treats</h4>
+                <p>R$ 24,99</p>
+                <button class="btn-comprar">
+        Comprar agora
+    </button>
+            </div>
+</a>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="links-footer">
+
+            <a href="sobre.html">Quem somos</a>
+            <a href="minhaconta.html">Meu cadastro</a>
+            <a href="contato.html">Fale conosco</a>
+
+        </div>
+
+        <div class="footer-baixo">
+
+            <div>
+
+                <h4>Formas de pagamento</h4>
+
+                <div class="pagamentos">
+                    <img src="pagamento.png">
+                </div>
+
+            </div>
+
+            <div>
+
+                <h4>Redes sociais</h4>
+
+                <div class="social">
+
+                    <a href="https://instagram.com" target="_blank">
+
+                        <img src="insta.png">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <img src="logocontraste.png" class="logo-footer">
+
+        </div>
+
+    </footer>
+
+    <script src="TodosProdutos.js"></script>
+</body>
+
+</html>
