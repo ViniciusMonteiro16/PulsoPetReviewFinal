@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home user</title>
+
+    <link rel="stylesheet" href="homeuser.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <script src="homeuser.js"></script>
+
+    <nav class="nav">
+
+        <img src="logocontraste.png" class="logo">
+
+        <div class="TextoNav">
+
+
+            <a href="homeuser.html">
+                <h3>Início</h3>
+            </a>
+
+            <a href="TodosProdutos.html">
+                <h3>Produtos</h3>
+            </a>
+
+            <a href="sobre.html">
+                <h3>Sobre</h3>
+            </a>
+
+
+           <div class="user-area">
+
+    <img class="perfil"
+    src="user.png"
+    onclick="abrirLogin(event)">
+
+    <div class="card-login" id="cardLogin">
+
+        <a href="login.html">
+            <button class="btn-login" >
+            Login
+        </button>
+</a>
+        <a href="criarconta.html">
+            Criar conta
+        </a>
+
+    </div>
+
+</div>
+
+        </div>
+
+    </nav>
+
+    <div class="resultado-pesquisa" id="resultadoPesquisa"></div>
+
+    <section class="banner-section">
+
+        <button class="seta" onclick="bannerAnterior()"> &#10094;</button>
+
+        <a href="produto.html" class="banner-link">
+
+            <div class="banner">
+                <img src="banner.png">
+            </div>
+
+        </a>
+
+        <button class="seta" onclick="proximoBanner()"> &#10095;</button>
+
+    </section>
+
+    <div class="bolinhas">
+        <div></div>
+        <div></div>
+        <div class="ativa"></div>
+    </div>
+
+    <section class="conteudo">
+
+        <h2>PetTimer - comedouros:</h2>
+
+        <div class="cards">
+
+            <a href="produtopreto.html" class="link-card">
+
+                <div class="card-grande">
+                    <img src="produtopreto.png">
+
+                    <p>Comedouro e Bebedouro Integrados - PetTimer preto 1,5L</p>
+
+                    <h3>R$ 209,99</h3>
+                </div>
+
+            </a>
+
+            <a href="produtobranco.html" class="link-card">
+
+                <div class="card-grande">
+                    <img src="produtobranco.png">
+
+                    <p>Comedouro e Bebedouro Integrados - PetTimer branco 1,5L</p>
+
+                    <h3>R$ 209,99</h3>
+                </div>
+
+            </a>
+
+            <a href="produtobege.html" class="link-card">
+
+                <div class="card-grande">
+                    <img src="produtobege.png">
+
+                    <p>Comedouro e Bebedouro Integrados - PetTimer bege 1,5L</p>
+
+                    <h3>R$ 209,99</h3>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="conteudo">
+
+        <h2>Produtos:</h2>
+
+        <div class="products-full">
+
+            <a href="PedigreeCachorro.html" class="link-card">
+
+                <div class="small-card">
+                    <img src="pedigree home.png">
+
+                    <p>Ração Pedigree 10,1kg cachorro</p>
+
+                    <h3>R$ 170,99</h3>
+                </div>
+
+            </a>
+
+            <a href="WhiskasGato.html" class="link-card">
+
+                <div class="small-card">
+                    <img src="whiskas home.png">
+
+                    <p>Ração Whiskas 10,1kg gato</p>
+
+                    <h3>R$ 179,99</h3>
+                </div>
+
+            </a>
+
+            <a href="MordedorCorda.html" class="link-card">
+
+                <div class="small-card">
+                    <img src="mordedor home.png">
+
+                    <p>Brinquedo mordedor - cachorro</p>
+
+                    <h3>R$ 34,90</h3>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="categorias">
+
+        <h2>Categorias:</h2>
+
+        <div class="categoria-area">
+
+            <div class="categoria">
+
+                <a href="TodosProdutos.html">
+
+                    <div class="circulo">
+                        <img src="specialdog home.png">
+                    </div>
+
+                </a>
+
+                <p>Rações</p>
+
+            </div>
+
+            <div class="categoria">
+
+                <a href="TodosProdutos.html">
+
+                    <div class="circulo">
+                        <img src="goldengatos home.png">
+                    </div>
+
+                </a>
+
+                <p>Petiscos</p>
+
+            </div>
+
+            <div class="categoria">
+
+                <a href="TodosProdutos.html">
+
+                    <div class="circulo">
+                        <img src="brinquedo rato.png">
+                    </div>
+
+                </a>
+
+                <p>Brinquedos</p>
+
+            </div>
+
+            <div class="categoria">
+
+                <a href="TodosProdutos.html">
+
+                    <div class="circulo">
+                        <img src="transporte mochila.png">
+                    </div>
+
+                </a>
+
+                <p>Transporte</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+     <footer>
+
+        <div class="links-footer">
+
+            <a href="sobre.html">Quem somos</a>
+            <a href="minhaconta.html">Meu cadastro</a>
+            <a href="contato.html">Fale conosco</a>
+
+        </div>
+
+        <div class="footer-baixo">
+
+            <div>
+
+                <h4>Formas de pagamento</h4>
+
+                <div class="pagamentos">
+                    <img src="pagamento.png">
+                </div>
+
+            </div>
+
+            <div>
+
+                <h4>Redes sociais</h4>
+
+            <div class="social">
+
+             <a href="https://instagram.com" target="_blank"> <img src="insta.png"></a>
+
+            </div>
+
+            </div>
+
+            <img src="logocontraste.png" class="logo-footer">
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
