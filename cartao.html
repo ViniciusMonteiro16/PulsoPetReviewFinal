@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento Cartão</title>
+
+    <link rel="stylesheet" href="cartao.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<script src="cartao.js"></script>
+
+    <nav class="nav">
+
+        <img src="logocontraste.png" class="logo">
+
+        <div class="TextoNav">
+
+            <a href="homeuser.html">
+                <h3>Início</h3>
+            </a>
+
+            <a href="TodosProdutos.html">
+                <h3>Produtos</h3>
+            </a>
+
+            <a href="sobre.html">
+                <h3>Sobre</h3>
+            </a>
+
+            <a href="minhaconta.html">
+                <img class="perfil" src="user.png">
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <section class="area-cartao">
+
+        <div class="card-cartao">
+
+            <h2>Detalhes do pagamento (Cartão)</h2>
+
+            <input type="text"
+            placeholder="Número do cartão"
+            maxlength="19"
+            id="numeroCartao">
+
+            <input type="text"
+            placeholder="Nome do titular"
+            id="nomeTitular">
+
+            <input type="text"
+            placeholder="CVV"
+            maxlength="3"
+            id="cvv">
+
+            <input type="text"
+            placeholder="Data de validade"
+            maxlength="5"
+            id="validade">
+
+        </div>
+
+        <div class="botoes">
+
+            <button type="button" class="confirmar"
+            onclick="confirmarPagamento()">
+              Confirmar pagamento
+            </button>
+
+            <button class="cancelar"
+            onclick="cancelarPagamento()">
+                Cancelar
+            </button>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="links-footer">
+
+            <a href="sobre.html">Quem somos</a>
+            <a href="minhaconta.html">Meu cadastro</a>
+            <a href="contato.html">Fale conosco</a>
+
+        </div>
+
+        <div class="footer-baixo">
+
+            <div>
+
+                <h4>Formas de pagamento</h4>
+
+                <div class="pagamentos">
+                    <img src="pagamento.png">
+                </div>
+
+            </div>
+
+            <div>
+
+                <h4>Redes sociais</h4>
+
+            <div class="social">
+
+             <a href="https://instagram.com" target="_blank"> <img src="insta.png"></a>
+
+            </div>
+
+            </div>
+
+            <img src="logocontraste.png" class="logo-footer">
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

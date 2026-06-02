@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Carrinho</title>
+
+    <link rel="stylesheet"
+    href="carrinho.css">
+
+    <link rel="preconnect"
+    href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="nav">
+
+        <img src="logocontraste.png"
+        class="logo">
+
+        <div class="TextoNav">
+
+            <a href="homeuser.html">
+                <h3>Início</h3>
+            </a>
+
+            <a href="TodosProdutos.html">
+                <h3>Produtos</h3>
+            </a>
+
+            <a href="sobre.html">
+                <h3>Sobre</h3>
+            </a>
+
+            <a href="minhaconta.html">
+                <img class="perfil"
+                src="user.png">
+            </a>
+
+        </div>
+
+    </nav>
+
+    <section class="container">
+
+        <h2 class="titulo">
+            Resumo do pedido
+        </h2>
+
+        <div class="conteudo">
+
+            <div class="lado-esquerdo">
+
+                <div class="topo-produtos">
+
+                    <h4>Produtos</h4>
+                    <h4>Preço</h4>
+                    <h4>Quantidade</h4>
+                    <h4>Total</h4>
+
+                </div>
+
+               <div class="produto-card">
+
+    <img src=""
+    class="produto-img">
+
+    <div class="produto-info">
+
+        <h3></h3>
+
+    </div>
+
+    <p class="preco"></p>
+
+                    <div class="quantidade">
+
+                        <button onclick="diminuir()">
+                            -
+                        </button>
+
+                        <span id="quantidade">
+                            1
+                        </span>
+
+                        <button onclick="aumentar()">
+                            +
+                        </button>
+
+                    </div>
+
+                    <p class="total"
+                    id="total">
+
+                        R$15,99
+
+                    </p>
+
+                    <img src="lixeira.png"
+                    class="lixeira">
+
+                </div>
+
+            </div>
+
+            <div class="lado-direito">
+
+                <button class="btn-pagamento"
+                onclick="window.location.href='comopagar.html'">
+
+                    Ir para pagamento
+
+                </button>
+
+                <button class="btn-produtos"
+                onclick="window.location.href='TodosProdutos.html'">
+
+                    Escolher mais produtos
+
+                </button>
+
+                <div class="linha"></div>
+
+                <h3 class="formas">
+                    Formas de pagamento
+                </h3>
+
+                <div class="formas-pagamento">
+
+    <img src="pixpreto.png"
+    class="pagamento-img">
+
+    <img src="cartaopreto.png"
+    class="pagamento-img">
+
+</div>
+
+            </div>
+
+        </div>
+
+        <div class="recomendacoes">
+
+            <h2>
+                Recomendações de itens
+            </h2>
+
+            <div class="cards">
+
+                <a href="FuzzVarinha.html" class="link-card">
+                <div class="card">
+
+                    <img src="brinquedovarinha.png">
+
+                    <p>
+                        Brinquedo Fuzz Varinha de Minhoca - gato
+                    </p>
+
+                    <h3>
+                        R$ 24,99
+                    </h3>
+
+                </div>
+                </a>
+
+                <a href="FuzzCrocodilo.html" class="link-card">
+                <div class="card">
+
+                    <img src="brinquedocrocodilo.png">
+
+                    <p>
+                        Brinquedo Fuzz Crocodilo - gato
+                    </p>
+
+                    <h3>
+                        R$ 15,99
+                    </h3>
+
+                </div>
+                </a>
+
+                <a href="Haltere.html" class="link-card">
+                <div class="card">
+
+                    <img src="halter.png">
+
+                    <p>
+                        Brinquedo haltere mordedor - cachorro
+                    </p>
+
+                    <h3>
+                        R$ 16,00
+                    </h3>
+
+                </div>
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="links-footer">
+
+            <a href="sobre.html">Quem somos</a>
+            <a href="minhaconta.html">Meu cadastro</a>
+            <a href="contato.html">Fale conosco</a>
+
+        </div>
+
+        <div class="footer-baixo">
+
+            <div>
+
+                <h4>Formas de pagamento</h4>
+
+                <div class="pagamentos">
+
+                    <img src="pagamento.png">
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <h4>Redes sociais</h4>
+
+                <div class="social">
+
+                    <a href="https://instagram.com"
+                    target="_blank">
+
+                        <img src="insta.png">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <img src="logocontraste.png"
+            class="logo-footer">
+
+        </div>
+
+    </footer>
+
+    <script src="carrinho.js"></script>
+
+</body>
+
+</html>
